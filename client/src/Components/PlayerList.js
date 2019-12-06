@@ -31,7 +31,7 @@ const PlayerList = ({ players }) => {
   return(
     <>
       <Container maxWidth="lg">
-        <Button variant="outlined" color="primrary" onClick={toggleMode}>Dark Mode</Button>
+        <Button variant="outlined" color="primary" onClick={toggleMode}>Dark Mode</Button>
         <Box display="flex" flexWrap="wrap" alignItems="center" justifyContent="flex-start">
           {players.map(player => (
             <Box className={classes.flexBox}>
